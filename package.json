@@ -1,0 +1,28 @@
+{
+  "name": "m7-vk-player",
+  "version": "0.0.0",
+  "description": "VK.com music player on electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muxahuk/m7-vk-player.git"
+  },
+  "keywords": [
+    "vk player",
+    "vkontakte player",
+    "electron vk app",
+    "vk electron"
+  ],
+  "author": "[M7] Михаил Семёнов (Mihail Semjonov)",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/muxahuk/m7-vk-player/issues"
+  },
+  "homepage": "https://github.com/muxahuk/m7-vk-player#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  }
+}
