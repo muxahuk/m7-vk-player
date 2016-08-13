@@ -4,7 +4,7 @@
   "description": "VK.com music player on electron",
   "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "./node_modules/.bin/electron ."
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/muxahuk/m7-vk-player#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.2.0"
+    "electron-prebuilt": "^1.2.0",
+    "electron-reload": "^1.0.2"
   }
 }
